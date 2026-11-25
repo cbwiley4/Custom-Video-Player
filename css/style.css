@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Questrial', sans-serif;
-    background: #777;
+    font-family: 'New Rocker', regular, system-ui;
+    background: #6e230c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +15,14 @@ body {
     margin: 0;
 }
 
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
 h1 {
-    color: #fff;
+    color: #d44b25;
 }
 
 .screen {
@@ -25,6 +31,7 @@ h1 {
     background-color: #000 !important;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 5px solid #d44b25;
 }
 
 .controls {
@@ -47,7 +54,7 @@ h1 {
 
 /* Select the class controls and fa-play */
 .controls .fa-play {
-    color: #28a745;
+    color: #d8bf19;
 }
 
 /* Select the controls and fa-stop */
@@ -66,7 +73,3 @@ h1 {
     margin-left: 10px;
 }
 
-/* Remove the outline when clicking the button */
-.btn:focus {
-  outline: 0;
-}
